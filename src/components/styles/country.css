@@ -1,0 +1,29 @@
+.country {
+  display: inline-block;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.country__info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.img {
+  height: 160px;
+}
+
+img {
+  height: 100%;
+}
+
+h2 {
+  padding: 10px 20px;
+}
+
+p {
+  padding: 5px 20px;
+}

@@ -1,0 +1,37 @@
+.Filter {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  /* width: 100%; */
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px 0px;
+  min-width: 30px;
+}
+
+.input-field {
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+@media (max-width: 400px) {
+  .Filter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Filter select {
+    margin-top: 20px;
+    width: 150px;
+  }
+}

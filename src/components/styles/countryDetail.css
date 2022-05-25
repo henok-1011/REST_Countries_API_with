@@ -1,0 +1,65 @@
+/* .back__div{
+  display:flex;
+} */
+
+img {
+  width: 100%;
+}
+.back {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 7px 35px;
+  cursor: pointer;
+  margin: 50px 0px;
+}
+
+.count {
+  display: flex;
+}
+
+.count .flag {
+  max-width: 50%;
+}
+
+.info {
+  width: 50%;
+}
+
+.country__name {
+  font-size: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.more h1 {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.country__borders {
+  text-align: left;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.borders {
+  margin-left: 10px;
+}
+
+.borders h1 {
+  border: 1px solid gray;
+  padding: 0px 25px;
+}
+
+@media (max-width: 375px) {
+  .count {
+    display: block;
+  }
+}
